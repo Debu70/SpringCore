@@ -1,0 +1,6 @@
+package com.codeD.springCore.AutoWired;
+
+public class ClassRoom {
+	private Student student;
+	
+}

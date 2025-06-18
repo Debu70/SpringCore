@@ -1,0 +1,25 @@
+package com.codeD.springProj.Ambiguity;
+
+public class AmbiguityMethod {
+	
+	private int firstNumber;
+	private int secondNumber;
+	
+	
+	
+	public AmbiguityMethod(int firstNumber, int secondNumber) {
+		super();
+		this.firstNumber = firstNumber;
+		this.secondNumber = secondNumber;
+	}
+	
+	
+	public AmbiguityMethod(double firstNumber, double secondNumber) {
+		super();
+		this.firstNumber = (int) firstNumber;
+		this.secondNumber = (int) secondNumber;
+	}
+	
+	
+	
+}

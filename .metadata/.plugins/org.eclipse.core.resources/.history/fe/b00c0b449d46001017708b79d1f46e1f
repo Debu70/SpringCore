@@ -1,0 +1,46 @@
+package com.codeD.springProj.LifeCycle.byUsingInterface;
+
+import org.springframework.beans.factory.DisposableBean;
+import org.springframework.beans.factory.InitializingBean;
+
+public class Employee implements InitializingBean, DisposableBean {
+	
+	
+	private long empId ;
+	private String empName;
+	
+	@Override
+	public String toString() {
+		return "Employee [id=" + empId + ", empName=" + empName + "]";
+	}
+	
+	public long getId() {
+		return empId;
+	}
+	public void setId(long id) {
+		this.empId = id;
+	}
+	public String getEmpName() {
+		return empName;
+	}
+	public void setEmpName(String empName) {
+		this.empName = empName;
+	}
+	
+	@Override
+	public void afterPropertiesSet() throws Exception {
+		System.out.println("Init Method Initialize ...!");
+		
+	}
+	
+	
+	@Override
+	public void destroy() throws Exception {
+		System.out.println("Destroy Method invoke ...!");
+		
+	}
+
+	
+	
+	
+}

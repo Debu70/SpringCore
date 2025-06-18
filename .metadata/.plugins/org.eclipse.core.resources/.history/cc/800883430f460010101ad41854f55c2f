@@ -1,0 +1,13 @@
+package com.codeD.springProj.LifeCycle;
+
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+public class TestApp {
+	public static void main(String[] args) {
+
+		ApplicationContext ticket = new ClassPathXmlApplicationContext("com/codeD/springProj/LifeCycle/config.xml");
+		TicketBooking t1 = (TicketBooking) ticket.getBean("ticket");
+		System.out.println(t1);
+	}
+}

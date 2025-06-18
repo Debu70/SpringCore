@@ -1,0 +1,8 @@
+package com.codeD.springCore.SpEL;
+
+public class Math {
+	
+	private int firstNumber;
+	private int secondNumber;
+	
+}

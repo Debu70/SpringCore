@@ -1,0 +1,30 @@
+package com.codeD.springProj.LifeCycle.byAnnotation;
+
+public class Student {
+	
+	private int studentId;
+	private String StudentName;
+	public int getStudentId() {
+		return studentId;
+	}
+	public void setStudentId(int studentId) {
+		this.studentId = studentId;
+	}
+	public String getStudentName() {
+		return StudentName;
+	}
+	public void setStudentName(String studentName) {
+		StudentName = studentName;
+	}
+	@Override
+	public String toString() {
+		return "Student [studentId=" + studentId + ", StudentName=" + StudentName + "]";
+	}
+	
+	private void initialize() {
+		System.out.println("init - Method");
+	}
+	private void kiilerMethod() {
+		System.out.println("Destroy - Method");
+	}
+}

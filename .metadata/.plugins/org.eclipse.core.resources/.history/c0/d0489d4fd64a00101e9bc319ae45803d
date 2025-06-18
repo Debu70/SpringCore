@@ -1,0 +1,27 @@
+package com.codeD.springProj.StereoType;
+
+public class Student {
+	
+	private String Name;
+	private int rollNumber;
+	
+	public String getName() {
+		return Name;
+	}
+	public void setName(String name) {
+		Name = name;
+	}
+	public int getRollNumber() {
+		return rollNumber;
+	}
+	public void setRollNumber(int rollNumber) {
+		this.rollNumber = rollNumber;
+	}
+	@Override
+	public String toString() {
+		return "Student [Name=" + Name + ", rollNumber=" + rollNumber + "]";
+	}
+	
+	
+	
+}
