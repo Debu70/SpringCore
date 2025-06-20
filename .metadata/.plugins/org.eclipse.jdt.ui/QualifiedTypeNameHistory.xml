@@ -2,7 +2,6 @@
 <qualifiedTypeNameHistroy>
     <fullyQualifiedTypeName name="java.lang.Double"/>
     <fullyQualifiedTypeName name="com.codeD.springProj.Ambiguity.AmbiguityMethod"/>
-    <fullyQualifiedTypeName name="java.lang.String"/>
     <fullyQualifiedTypeName name="java.lang.Integer"/>
     <fullyQualifiedTypeName name="com.codeD.springProj.LifeCycle.TicketBooking"/>
     <fullyQualifiedTypeName name="org.springframework.beans.factory.InitializingBean"/>
@@ -14,9 +13,15 @@
     <fullyQualifiedTypeName name="com.codeD.springProj.LifeCycle.byAnnotation.AppTest"/>
     <fullyQualifiedTypeName name="com.codeD.springProj.LifeCycle.byAnnotation.Student"/>
     <fullyQualifiedTypeName name="java.lang.Thread"/>
-    <fullyQualifiedTypeName name="org.springframework.stereotype.Component"/>
+    <fullyQualifiedTypeName name="com.codeD.springProj.StereoType.Student"/>
+    <fullyQualifiedTypeName name="com.codeD.springCore.SpEL.Math"/>
     <fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Value"/>
+    <fullyQualifiedTypeName name="com.codeD.springCore.AutoWired.Student"/>
+    <fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Autowired"/>
+    <fullyQualifiedTypeName name="org.springframework.stereotype.Component"/>
+    <fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Qualifier"/>
     <fullyQualifiedTypeName name="org.springframework.context.ApplicationContext"/>
     <fullyQualifiedTypeName name="org.springframework.context.support.ClassPathXmlApplicationContext"/>
-    <fullyQualifiedTypeName name="com.codeD.springProj.StereoType.Student"/>
+    <fullyQualifiedTypeName name="org.springframework.jdbc.core.JdbcTemplate"/>
+    <fullyQualifiedTypeName name="java.lang.String"/>
 </qualifiedTypeNameHistroy>
